@@ -1,0 +1,22 @@
+/*Estilos contacto*/
+.gridContacto{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 10vh 10vh 10vh;
+    font-size: 3vh;
+    justify-items: center;
+ 
+}
+.transContacto{
+    animation-name: vuelta;
+    animation-duration: 5s;
+}
+
+@keyframes vuelta{
+    from{ margin-left: 100%;
+        width: 300%;
+    }
+    to{ margin-left: 0%;
+        width: 100%;
+    }
+}

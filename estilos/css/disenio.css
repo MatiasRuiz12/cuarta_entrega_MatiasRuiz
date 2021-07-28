@@ -1,0 +1,247 @@
+/*Inicio y logo*/
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-image: linear-gradient(to top, #7edae6, white);
+  width: 100%;
+  height: 100vh; }
+
+.transLogo {
+  height: 100%;
+  transition: height 1s; }
+
+.transLogo:hover {
+  height: 200%; }
+
+/*Tipografia*/
+a {
+  text-decoration: none; }
+
+h1 {
+  color: black;
+  text-align: center;
+  font-size: 40px;
+  animation-name: aparecer;
+  animation-duration: 2s; }
+
+@keyframes aparecer {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+
+h2 {
+  padding: 5px; }
+
+h3 {
+  padding: 7px; }
+
+/*Estilos para index*/
+#alturaJusta {
+  height: 1500px; }
+
+.flexMenu {
+  display: flex;
+  flex-flow: row nowrap;
+  padding: 10px;
+  justify-content: space-evenly;
+  list-style-type: none;
+  font-weight: bold;
+  list-style-type: none; }
+  .flexMenu li {
+    margin: 2px;
+    width: 150px;
+    padding: 5px;
+    text-align: center; }
+  .flexMenuhover {
+    background-color: #47b5ff;
+    color: white;
+    text-align: center;
+    padding: 5px; }
+
+.flexTitulo {
+  display: flex;
+  flex-flow: row wrap;
+  padding: 10px;
+  margin: 5px;
+  justify-content: space-between;
+  align-items: center; }
+  .flexTitulo h1 {
+    padding-left: 300px;
+    font-size: 7vh; }
+
+.flexSecciones {
+  display: flex;
+  justify-content: center; }
+  .flexSecciones div {
+    margin: 10px;
+    text-align: center;
+    font-size: 40px;
+    border: double 1px white;
+    width: 60vh; }
+
+.flexIntroduccion {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  justify-items: center;
+  padding: 5px;
+  margin-top: 40px;
+  margin-bottom: 60px; }
+
+#textoCorto {
+  font-size: 150%; }
+
+/*Estilos sobreMi*/
+.flexSobreYo {
+  display: flex;
+  flex-flow: row wrap;
+  padding: 10px;
+  justify-content: space-around; }
+  .flexSobreYo p {
+    padding: 1px;
+    text-align: justify; }
+
+.grillita {
+  display: grid;
+  grid-template-areas: "inicio inicio inicio inicio" "titulo titulo titulo titulo" " info info foto foto" "info info forma forma" "fin fin fin fin";
+  grid-template-rows: auto;
+  grid-column-gap: 10px;
+  grid-row-gap: 20px;
+  text-align: center; }
+
+header {
+  grid-area: inicio; }
+
+main {
+  grid-area: titulo; }
+
+div.flexSobreyo {
+  grid-area: info; }
+
+div#foto {
+  grid-area: foto; }
+
+aside {
+  grid-area: aside; }
+
+section div.border {
+  grid-area: formas;
+  border: dotted 1px wheat; }
+
+div footer {
+  grid-area: fin; }
+
+/*Estilo para turnos*/
+.flexTurnos {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  justify-items: start; }
+
+#FormularioTurno {
+  font-weight: bolder;
+  font-size: 2vh;
+  width: 60%; }
+
+div form {
+  width: 50vh; }
+
+form {
+  width: 150%; }
+  form label {
+    display: flex;
+    flex-flow: column wrap; }
+  form input {
+    border: 1px solid #f6f6f6;
+    border-radius: 3px;
+    background-color: #f6f6f6;
+    margin: 8px 0;
+    display: inline-block; }
+
+textarea {
+  border: 1px solid #f6f6f6;
+  border-radius: 3px;
+  background-color: #f6f6f6;
+  resize: none;
+  display: block; }
+
+input[type="submit"] {
+  width: 20vh;
+  border: 1px solid #f6f6f6;
+  border-radius: 3px;
+  background-color: #f6f6f6; }
+  input[type="submit"]hover {
+    border: 1.5px solid black; }
+
+input[type="reset"] {
+  width: 10vh;
+  border: 1px solid #f6f6f6;
+  border-radius: 3px;
+  background-color: #f6f6f6; }
+  input[type="reset"]hover {
+    border: 1.5px solid black; }
+
+.comentarios {
+  padding: 2px;
+  margin-top: 2px; }
+
+div h4 {
+  border: dotted 1px wheat;
+  font-size: 20px; }
+
+.transTurnos {
+  font-size: 160%;
+  font-weight: bold;
+  padding: 10px;
+  width: 30%;
+  animation-name: turnito;
+  animation-iteration-count: infinite;
+  animation-duration: 1s;
+  animation-delay: 0s; }
+
+@keyframes turnito {
+  0% {
+    background-color: white; }
+  100% {
+    background-color: #ccbfbf; } }
+
+/*Estilos contacto*/
+.gridContacto {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 10vh 10vh 10vh;
+  font-size: 3vh;
+  justify-items: center; }
+
+.transContacto {
+  animation-name: vuelta;
+  animation-duration: 5s; }
+
+@keyframes vuelta {
+  from {
+    margin-left: 100%;
+    width: 300%; }
+  to {
+    margin-left: 0%;
+    width: 100%; } }
+
+/*Estilos en footer*/
+footer {
+  background-image: radial-gradient(grey, black);
+  padding: 20px; }
+  footer p {
+    padding: 18px;
+    color: white;
+    width: 40%; }
+  footer div p {
+    color: white;
+    transition: width 2s;
+    font-size: 20px; }
+    footer div phover {
+      color: black;
+      background-color: white;
+      width: 50%;
+      text-align: center; }

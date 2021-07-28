@@ -1,0 +1,22 @@
+/*Estilos en footer*/
+
+footer{
+    background-image: radial-gradient( grey, black);
+    padding: 20px;
+    p{
+        padding: 18px;
+        color: white;
+        width: 40%;
+    }
+    div p{
+        color:white;
+        transition: width 2s;
+        font-size: 20px;
+        &hover{
+            color: black;
+            background-color: white;
+            width: 50%;
+            text-align: center;
+        }
+    }
+}

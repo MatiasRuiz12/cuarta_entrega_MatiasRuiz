@@ -1,0 +1,47 @@
+/*Estilos sobreMi*/
+
+.flexSobreYo{
+    display: flex;
+    flex-flow: row wrap;
+    padding: 10px;
+    justify-content: space-around;
+    p{
+        padding: 1px;
+        text-align: justify;
+    }
+}
+.grillita{
+    display: grid;
+    grid-template-areas: 
+    "inicio inicio inicio inicio"
+    "titulo titulo titulo titulo"
+    " info info foto foto"
+    "info info forma forma"
+    "fin fin fin fin"
+    ;
+    grid-template-rows:  auto;
+    grid-column-gap: 10px;
+    grid-row-gap: 20px;
+    text-align: center;
+}
+header {
+    grid-area: inicio;
+    
+}
+main{ grid-area: titulo; }
+div.flexSobreyo{
+    grid-area: info; 
+}
+div#foto{
+    grid-area: foto;
+}
+aside{
+    grid-area: aside;
+}
+section div.border{
+    grid-area: formas;
+    border: dotted 1px wheat;
+}
+div footer{
+    grid-area: fin;
+}

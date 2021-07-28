@@ -1,0 +1,83 @@
+/*Estilo para turnos*/
+.flexTurnos{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content:space-around;
+    justify-items: start;
+
+    
+}
+
+#FormularioTurno{
+    font-weight: bolder;
+    font-size: 2vh;
+    width: 60%;
+}
+div form{
+    width: 50vh;
+}
+form{
+    width: 150%;
+    label{
+        display: flex;
+    flex-flow: column wrap;
+    ;
+    }
+    input{
+        border:1px solid #f6f6f6;
+	    border-radius:3px;
+	    background-color:#f6f6f6;
+	    margin:8px 0;
+	    display:inline-block;
+    }
+}
+textarea{
+    border:1px solid #f6f6f6;
+	border-radius:3px;
+	background-color:#f6f6f6;	
+	resize:none;
+	display:block;
+}
+input[ type="submit"]{
+    width: 20vh;
+    border:1px solid #f6f6f6;
+	border-radius:3px;
+	background-color:#f6f6f6;
+    &hover{
+        border: 1.5px solid black;
+    }
+}
+input[type="reset"]{
+    width: 10vh;
+    border:1px solid #f6f6f6;
+	border-radius:3px;
+	background-color:#f6f6f6;
+    &hover{
+        border: 1.5px solid black
+    }
+
+}
+.comentarios{
+    padding:2px;
+    margin-top: 2px;
+}
+div h4{
+    border: dotted 1px wheat;
+    font-size: 20px;
+}
+
+.transTurnos{
+    font-size: 160%;
+    font-weight: bold;
+    padding: 10px;
+    width: 30%;
+    animation-name: turnito;
+    animation-iteration-count: infinite;
+    animation-duration: 1s;
+    animation-delay: 0s;
+}
+
+@keyframes turnito{
+    0%{background-color: white;}
+    100%{background-color: rgb(204, 191, 191);}
+}
