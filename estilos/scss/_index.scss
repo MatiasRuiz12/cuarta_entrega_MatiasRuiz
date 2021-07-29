@@ -17,23 +17,27 @@
     width: 150px;
     padding: 5px;
     text-align: center;
-    }
-    &hover{
+    & hover{
         background-color:rgb(71, 181, 255);
     color: white;
     text-align: center;
     padding: 5px;
+        }
     }
+    
 }
+
+
 .flexTitulo{
     display: flex;
     flex-flow: row wrap;
     padding: 10px;
     margin: 5px;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     h1{
-        padding-left: 300px;
+        padding: 5px;
+        margin: 10px;
         font-size: 7vh;
     }
 }
@@ -58,4 +62,6 @@
 }
 #textoCorto{
     font-size: 150%;
+    padding: 10px;
+    margin: 10px;
 }
