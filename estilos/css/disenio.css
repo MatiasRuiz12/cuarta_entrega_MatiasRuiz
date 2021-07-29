@@ -144,26 +144,41 @@ div footer {
   grid-area: fin; }
 
 /*Estilo para turnos*/
+.turnosTitulo {
+  padding: 10px;
+  margin: 10px; }
+  .turnosTitulo h1 {
+    padding: 5px;
+    margin: 5px; }
+
 .flexTurnos {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-around;
   justify-items: start; }
-
-#FormularioTurno {
-  font-weight: bolder;
-  font-size: 2vh;
-  width: 60%; }
+  .flexTurnos h4 {
+    padding: 10px;
+    margin: 10px;
+    border: none;
+    background-color: #f6f6f6;
+    width: 45vh; }
+  .flexTurnos ol li {
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    list-style: none; }
 
 div form {
   width: 50vh; }
 
 form {
-  width: 150%; }
+  width: 150%;
+  margin-bottom: 20px; }
   form label {
     display: flex;
     flex-flow: column wrap; }
   form input {
+    font-size: 23px;
     border: 1px solid #f6f6f6;
     border-radius: 3px;
     background-color: #f6f6f6;
@@ -171,6 +186,7 @@ form {
     display: inline-block; }
 
 textarea {
+  margin-top: 10px;
   border: 1px solid #f6f6f6;
   border-radius: 3px;
   background-color: #f6f6f6;
@@ -178,6 +194,7 @@ textarea {
   display: block; }
 
 input[type="submit"] {
+  font-size: 16px;
   width: 20vh;
   border: 1px solid #f6f6f6;
   border-radius: 3px;
@@ -186,16 +203,13 @@ input[type="submit"] {
     border: 1.5px solid black; }
 
 input[type="reset"] {
+  font-size: 16px;
   width: 10vh;
   border: 1px solid #f6f6f6;
   border-radius: 3px;
   background-color: #f6f6f6; }
   input[type="reset"]hover {
     border: 1.5px solid black; }
-
-.comentarios {
-  padding: 2px;
-  margin-top: 2px; }
 
 div h4 {
   border: dotted 1px wheat;
