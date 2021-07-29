@@ -19,6 +19,9 @@ body {
 .bordesRedondos {
   border-radius: 200px; }
 
+#alturaJusta {
+  height: 1500px; }
+
 /*Tipografia*/
 a {
   text-decoration: none; }
@@ -46,9 +49,6 @@ h3 {
   font-weight: bold; }
 
 /*Estilos para index*/
-#alturaJusta {
-  height: 1500px; }
-
 .flexMenu {
   display: flex;
   flex-flow: row nowrap;
@@ -142,6 +142,68 @@ section div.border {
 
 div footer {
   grid-area: fin; }
+
+/*Estilos nutricion*/
+#alturaNutri {
+  height: 2000px; }
+
+.padMarg, .nutriConceptos, .grillaDoble, .nutriGuia {
+  padding: 10px;
+  margin: 15px; }
+
+.nutriTitulo {
+  padding: 10px; }
+  .nutriTitulo h1 {
+    margin: 30px; }
+  .nutriTitulo h2 {
+    margin: 10px;
+    padding: 15px; }
+
+.nutriConceptos h3 {
+  font-size: 25px;
+  padding: 10px; }
+
+.nutriConceptos p {
+  font-size: 20px;
+  padding: 10px;
+  margin: 10px;
+  font-style: oblique;
+  line-height: 200%; }
+
+.grillaDoble {
+  display: grid;
+  grid-template-columns: 40% 50%;
+  justify-items: center;
+  text-align: justify; }
+  .grillaDoble p {
+    text-align: justify;
+    font-size: 20px;
+    font-weight: bold;
+    width: 70vh; }
+
+.nutriGuia h3 {
+  text-align: center;
+  padding: 40px;
+  font-size: 30px; }
+
+.holaQueTal {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-evenly;
+  padding-bottom: 20px; }
+  .holaQueTal p {
+    width: 50vh;
+    text-align: justify;
+    font-size: 20px;
+    line-height: 250%; }
+
+.dudasNuevas {
+  padding: 10px;
+  margin: 10px 5px;
+  font-size: 20px;
+  background-color: #b2eeee;
+  width: 50%;
+  transform: translateX(50%); }
 
 /*Estilo para turnos*/
 .turnosTitulo {
@@ -253,6 +315,7 @@ div h4 {
 
 /*Estilos en footer*/
 footer {
+  height: 450px;
   background-image: radial-gradient(grey, black);
   padding: 20px; }
   footer p {
