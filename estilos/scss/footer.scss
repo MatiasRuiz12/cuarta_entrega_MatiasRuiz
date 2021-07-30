@@ -13,7 +13,7 @@ footer{
         color:white;
         transition: width 2s;
         font-size: 20px;
-        &hover{
+        &:hover{
             color: black;
             background-color: white;
             width: 50%;

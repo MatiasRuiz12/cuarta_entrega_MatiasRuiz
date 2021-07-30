@@ -62,7 +62,7 @@ h3 {
     width: 150px;
     padding: 5px;
     text-align: center; }
-    .flexMenu li hover {
+    .flexMenu li :hover {
       background-color: #47b5ff;
       color: white;
       text-align: center;
@@ -115,7 +115,11 @@ h3 {
 
 .grillita {
   display: grid;
-  grid-template-areas: "inicio inicio inicio inicio" "titulo titulo titulo titulo" " info info foto foto" "info info forma forma" "fin fin fin fin";
+  grid-template-areas: "inicio inicio inicio inicio"
+ "titulo titulo titulo titulo"
+ " info info foto foto"
+ "info info forma forma"
+ "fin fin fin fin";
   grid-template-rows: auto;
   grid-column-gap: 10px;
   grid-row-gap: 20px;
@@ -261,7 +265,7 @@ input[type="submit"] {
   border: 1px solid #f6f6f6;
   border-radius: 3px;
   background-color: #f6f6f6; }
-  input[type="submit"]hover {
+  input[type="submit"]:hover {
     border: 1.5px solid black; }
 
 input[type="reset"] {
@@ -270,7 +274,7 @@ input[type="reset"] {
   border: 1px solid #f6f6f6;
   border-radius: 3px;
   background-color: #f6f6f6; }
-  input[type="reset"]hover {
+  input[type="reset"]:hover {
     border: 1.5px solid black; }
 
 div h4 {
@@ -326,8 +330,8 @@ footer {
     color: white;
     transition: width 2s;
     font-size: 20px; }
-    footer div phover {
+    footer div p:hover {
       color: black;
       background-color: white;
-      width: 50%;
+      width: 30%;
       text-align: center; }
