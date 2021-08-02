@@ -115,11 +115,7 @@ h3 {
 
 .grillita {
   display: grid;
-  grid-template-areas: "inicio inicio inicio inicio"
- "titulo titulo titulo titulo"
- " info info foto foto"
- "info info forma forma"
- "fin fin fin fin";
+  grid-template-areas: "inicio inicio inicio inicio" "titulo titulo titulo titulo" " info info foto foto" "info info forma forma" "fin fin fin fin";
   grid-template-rows: auto;
   grid-column-gap: 10px;
   grid-row-gap: 20px;
@@ -333,5 +329,5 @@ footer {
     footer div p:hover {
       color: black;
       background-color: white;
-      width: 30%;
+      width: 50%;
       text-align: center; }
