@@ -125,10 +125,15 @@ header {
   grid-area: inicio; }
 
 main {
-  grid-area: titulo; }
+  grid-area: titulo;
+  padding: 20px; }
 
 div.flexSobreyo {
-  grid-area: info; }
+  grid-area: info;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: justify;
+  line-height: 50px; }
 
 div#foto {
   grid-area: foto; }
@@ -138,7 +143,13 @@ aside {
 
 section div.border {
   grid-area: formas;
-  border: dotted 1px wheat; }
+  border: dotted 1px wheat;
+  padding: 10px; }
+  section div.border h3 {
+    font-size: 150%; }
+  section div.border li {
+    list-style: none;
+    line-height: 40px; }
 
 div footer {
   grid-area: fin; }
@@ -281,6 +292,7 @@ div h4 {
   font-size: 160%;
   font-weight: bold;
   padding: 10px;
+  margin: 10px;
   width: 30%;
   animation-name: turnito;
   animation-iteration-count: infinite;
@@ -294,12 +306,24 @@ div h4 {
     background-color: #ccbfbf; } }
 
 /*Estilos contacto*/
+.inicioContacto {
+  padding: 10px;
+  margin: 5px; }
+  .inicioContacto h1 {
+    padding: 5px;
+    margin: 10px; }
+  .inicioContacto h2 {
+    padding: 5px;
+    margin: 10px; }
+
 .gridContacto {
   display: grid;
   grid-template-columns: 50% 50%;
   grid-template-rows: 10vh 10vh 10vh;
   font-size: 3vh;
-  justify-items: center; }
+  justify-items: center;
+  padding: 15px;
+  margin: 15px; }
 
 .transContacto {
   animation-name: vuelta;

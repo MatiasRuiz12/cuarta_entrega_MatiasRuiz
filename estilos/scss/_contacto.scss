@@ -1,10 +1,27 @@
 /*Estilos contacto*/
+
+.inicioContacto{
+    padding: 10px;
+    margin: 5px;
+    h1{
+        padding: 5px;
+        margin: 10px;
+    }
+    h2{
+        padding: 5px;
+        margin: 10px;
+    }
+}
+
+
 .gridContacto{
     display: grid;
     grid-template-columns: 50% 50%;
     grid-template-rows: 10vh 10vh 10vh;
     font-size: 3vh;
     justify-items: center;
+    padding: 15px;
+    margin: 15px;
  
 }
 .transContacto{

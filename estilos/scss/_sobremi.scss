@@ -28,9 +28,15 @@ header {
     grid-area: inicio;
     
 }
-main{ grid-area: titulo; }
+main{ 
+    grid-area: titulo; 
+    padding:20px;}
 div.flexSobreyo{
-    grid-area: info; 
+    grid-area: info;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: justify; 
+    line-height: 50px;
 }
 div#foto{
     grid-area: foto;
@@ -41,6 +47,14 @@ aside{
 section div.border{
     grid-area: formas;
     border: dotted 1px wheat;
+    padding: 10px;
+    h3{
+        font-size: 150%;
+    }
+    li{
+        list-style: none;
+        line-height: 40px;
+    }
 }
 div footer{
     grid-area: fin;
