@@ -355,3 +355,9 @@ footer {
       background-color: white;
       width: 50%;
       text-align: center; }
+
+/*MediaQueries*/
+/*Tablet*/
+@media (min-width: 600px) {
+  body {
+    background-color: pink; } }
