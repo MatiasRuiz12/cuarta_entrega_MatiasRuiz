@@ -1,6 +1,8 @@
 /*MediaQueries*/
+
 /*Smartphone*/
 @media (max-width: 480px) {
+  /*Nutricion*/
   #alturaNutri {
     height: 100%;
   }
@@ -36,12 +38,5 @@
   }
   footer {
     height: 100%;
-  }
-}
-
-/*Tablet*/
-@media (min-width: 600px) {
-  body {
-    background-color: pink;
   }
 }

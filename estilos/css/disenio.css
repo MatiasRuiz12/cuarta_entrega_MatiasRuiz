@@ -360,6 +360,7 @@ footer {
 /*MediaQueries*/
 /*Smartphone*/
 @media (max-width: 480px) {
+  /*Nutricion*/
   #alturaNutri {
     height: 100%; }
   body {
