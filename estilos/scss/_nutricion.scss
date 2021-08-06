@@ -1,85 +1,80 @@
 /*Estilos nutricion*/
-#alturaNutri{
-    height: 2000px;
+#alturaNutri {
+  height: 2000px;
 }
 
+.padMarg {
+  padding: 10px;
+  margin: 15px;
+}
 
-.padMarg{
+.nutriTitulo {
+  padding: 10px;
+  h1 {
+    margin: 30px;
+  }
+  h2 {
+    margin: 10px;
+    padding: 15px;
+  }
+}
+
+.nutriConceptos {
+  @extend .padMarg;
+  h3 {
+    font-size: 25px;
     padding: 10px;
-    margin: 15px;
-}
-
-.nutriTitulo{
-    padding: 10px;
-    h1{
-        margin: 30px;
-    }
-    h2{
-        margin: 10px;
-        padding: 15px;
-    }
-}
-
-.nutriConceptos{
-    @extend .padMarg;
-    h3{
-        font-size: 25px;
-        padding: 10px;
-    }
-    p{
-        font-size: 20px;
-        padding: 10px;
-        margin: 10px;
-        font-style: oblique;
-        line-height: 200%;
-    }
-}
-
-
-.grillaDoble{
-    @extend .padMarg;
-    display: grid;
-    grid-template-columns: 40% 50%;
-    justify-items: center;
-    text-align: justify;
-    p{
-        text-align: justify;
-        font-size: 20px;
-        font-weight: bold;
-        width: 70vh;
-    }
-}
-
-
-.nutriGuia{
-    @extend .padMarg;
-    h3{
-         text-align: center;
-         padding: 40px;
-         font-size: 30px;
-    }
-  
-}
-
-.holaQueTal{
-    display: flex;
-    flex-flow: row;
-    justify-content: space-evenly;
-    padding-bottom: 20px;
-    p{
-      width: 50vh;
-      text-align: justify;
-      font-size: 20px;
-      line-height: 250%;
-    }
-}
-
-.dudasNuevas{
-    padding: 10px;
-    margin: 10px 5px;
+  }
+  p {
     font-size: 20px;
-    background-color: rgb(178, 238, 238);
-    width: 50%;
-    transform: translateX(50%);
+    padding: 10px;
+    margin: 10px;
+    font-style: oblique;
+    line-height: 200%;
+  }
+}
 
+.grillaDoble {
+  @extend .padMarg;
+  display: grid;
+  grid-template-columns: 40% 50%;
+  justify-items: center;
+  text-align: justify;
+  p {
+    text-align: justify;
+    font-size: 20px;
+    font-weight: bold;
+    width: 70vh;
+  }
+}
+
+.nutriGuia {
+  @extend .padMarg;
+  h3 {
+    text-align: center;
+    padding: 40px;
+    font-size: 30px;
+  }
+}
+
+.holaQueTal {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  padding-bottom: 20px;
+  p {
+    width: 50vh;
+    text-align: justify;
+    font-size: 20px;
+    line-height: 250%;
+  }
+}
+
+.dudasNuevas {
+  padding: 10px;
+  margin: 10px 5px;
+  font-size: 20px;
+  background-color: rgb(178, 238, 238);
+  width: 50%;
+  transform: translateX(50%);
 }

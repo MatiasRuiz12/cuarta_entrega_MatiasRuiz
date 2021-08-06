@@ -1,10 +1,47 @@
 /*MediaQueries*/
+/*Smartphone*/
+@media (max-width: 480px) {
+  #alturaNutri {
+    height: 100%;
+  }
+  body {
+    height: 3000px;
+  }
+  .grillaDoble {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    padding-bottom: 20px;
+    p {
+      width: 50vh;
+      text-align: justify;
+      font-size: 20px;
+      line-height: 200%;
+    }
+  }
+  iframe {
+    width: 350px;
+  }
 
-
+  .holaQueTal {
+    img {
+      width: 300px;
+      margin: 2px;
+      padding: 2px;
+    }
+  }
+  .dudasNuevas {
+    padding: 5px;
+    margin: 5px;
+  }
+  footer {
+    height: 100%;
+  }
+}
 
 /*Tablet*/
-@media (min-width: 600px){
-    body{
-        background-color: pink;
-    }
+@media (min-width: 600px) {
+  body {
+    background-color: pink;
+  }
 }

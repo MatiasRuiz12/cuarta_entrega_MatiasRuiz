@@ -1,63 +1,62 @@
 /*Estilos para index*/
-.flexMenu{
-    display: flex;
-    flex-flow: row nowrap;
-    padding: 10px;
-    
-    justify-content: space-evenly;
-    list-style-type: none;
-    font-weight: bold;
-    list-style-type: none;
-    li{
-        margin: 2px;
+.flexMenu {
+  display: flex;
+  flex-flow: row nowrap;
+  padding: 10px;
+
+  justify-content: space-evenly;
+  list-style-type: none;
+  font-weight: bold;
+  list-style-type: none;
+  li {
+    margin: 2px;
     width: 150px;
     padding: 5px;
     text-align: center;
-    & :hover{
-        background-color:rgb(71, 181, 255);
-    color: white;
-    text-align: center;
+    & :hover {
+      background-color: rgb(71, 181, 255);
+      color: white;
+      text-align: center;
+      padding: 5px;
+    }
+  }
+}
+
+.flexTitulo {
+  display: flex;
+  flex-flow: row wrap;
+  padding: 10px;
+  margin: 5px;
+  justify-content: center;
+  align-items: center;
+  h1 {
     padding: 5px;
-        }
-    }
-    
+    margin: 10px;
+    font-size: 7vh;
+  }
 }
-
-
-.flexTitulo{
-    display: flex;
-    flex-flow: row wrap;
-    padding: 10px;
-    margin: 5px;
-    justify-content: center;
-    align-items: center;
-    h1{
-        padding: 5px;
-        margin: 10px;
-        font-size: 7vh;
-    }
-}
-.flexSecciones{
-    display: flex;
-    justify-content: center;
-    div{
-        margin: 10px;
+.flexSecciones {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  div {
+    margin: 10px;
     text-align: center;
     font-size: 40px;
-    border: double 1px white; 
+    border: double 1px white;
     width: 60vh;
-    }
+  }
 }
-.flexIntroduccion{
-    display: grid;
-    grid-template-columns: 50% 50%;
-    justify-items: center;
-    padding: 5px;
-    margin-top: 40px;
-    margin-bottom: 60px;
+.flexIntroduccion {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  justify-items: center;
+  padding: 5px;
+  margin-top: 40px;
+  margin-bottom: 60px;
 }
-#textoCorto{
-    font-size: 150%;
-    padding: 10px;
-    margin: 10px;
+#textoCorto {
+  font-size: 150%;
+  padding: 10px;
+  margin: 10px;
 }
