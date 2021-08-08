@@ -37,7 +37,7 @@
 }
 .flexSecciones {
   display: flex;
-  flex-flow: row wrap;
+  flex-flow: row nowrap;
   justify-content: center;
   div {
     margin: 10px;

@@ -82,7 +82,7 @@ h3 {
 
 .flexSecciones {
   display: flex;
-  flex-flow: row wrap;
+  flex-flow: row nowrap;
   justify-content: center; }
   .flexSecciones div {
     margin: 10px;
