@@ -1,28 +1,27 @@
 /*Inicio y logo*/
 
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
-body{
-    font-family: 'Open Sans', sans-serif;
-    background-image: linear-gradient(to top, rgb(126, 218, 230), white);
-    width: 100%;
-    height: 100vh;
-}
-
-.transLogo{
-    height: 100%;
-    transition: height 1s;
+body {
+  font-family: "Open Sans", sans-serif;
+  background-image: linear-gradient(to top, rgb(126, 218, 230), white);
+  width: 100%;
+  height: 100vh;
 }
 
-.transLogo:hover{
-    height: 200%
+.transLogo {
+  height: 100%;
+  transition: height 1s;
 }
-.bordesRedondos{
-    border-radius: 200px;
 
+.transLogo:hover {
+  height: 200%;
 }
-#alturaJusta{
-    height: 1500px;
+.bordesRedondos {
+  border-radius: 200px;
+}
+#alturaJusta {
+  height: 1500px;
 }

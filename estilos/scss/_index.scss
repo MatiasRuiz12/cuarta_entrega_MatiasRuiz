@@ -1,4 +1,18 @@
 /*Estilos para index*/
+.headerInicio {
+  background-color: lightblue;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  img {
+    margin-left: 10px;
+    padding: 10px;
+  }
+  nav {
+    flex-basis: 70%;
+  }
+}
 .flexMenu {
   display: flex;
   flex-flow: row nowrap;
