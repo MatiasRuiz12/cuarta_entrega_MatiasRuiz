@@ -49,6 +49,9 @@ h3 {
   font-weight: bold; }
 
 /*Estilos para index*/
+.menu-abrir {
+  display: none; }
+
 .flexMenu {
   display: flex;
   flex-flow: row nowrap;
@@ -57,6 +60,8 @@ h3 {
   list-style-type: none;
   font-weight: bold;
   list-style-type: none; }
+  .flexMenu .menu-cerrar {
+    display: none; }
   .flexMenu li {
     margin: 2px;
     width: 150px;
@@ -360,6 +365,17 @@ footer {
 /*MediaQueries*/
 /*Smartphone*/
 @media (max-width: 480px) {
+  /*Menu*/
+  .menu-abrir,
+  .menu-cerrar {
+    display: block; }
+  nav {
+    position: absolute;
+    top: -400%;
+    width: 100%; }
+    nav:target {
+      top: 0;
+      flex-direction: row-reverse; }
   /*Nutricion*/
   #alturaNutri {
     height: 100%; }
