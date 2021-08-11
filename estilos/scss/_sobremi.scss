@@ -5,6 +5,7 @@
 }
 .holaHola {
   display: flex;
+  flex-flow: row wrap;
 }
 .holaTexto {
   width: 50%;

@@ -121,7 +121,8 @@ h3 {
   margin-bottom: 30px; }
 
 .holaHola {
-  display: flex; }
+  display: flex;
+  flex-flow: row wrap; }
 
 .holaTexto {
   width: 50%;
@@ -351,6 +352,29 @@ footer {
 /*Smartphone*/
 @media (max-width: 480px) {
   /*Menu*/
+  .flexMenu {
+    flex-direction: column; }
+  .flexSecciones {
+    flex-direction: column; }
+    .flexSecciones img {
+      width: 100%; }
+    .flexSecciones p {
+      font-size: 16px;
+      text-align: center; }
+  .flexIntroduccion {
+    display: flex;
+    flex-direction: column; }
+    .flexIntroduccion p {
+      text-align: center; }
+  /*SobreMi*/
+  .holaHola {
+    flex-direction: column; }
+    .holaHola .holaTexto {
+      text-align: center;
+      width: 80%;
+      padding-left: 20px; }
+  #alturaJusta {
+    height: 3000px; }
   /*Nutricion*/
   #alturaNutri {
     height: 100%; }
