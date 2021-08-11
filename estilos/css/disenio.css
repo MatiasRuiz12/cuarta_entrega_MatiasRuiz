@@ -117,55 +117,31 @@ h3 {
   margin: 10px; }
 
 /*Estilos sobreMi*/
-.flexSobreYo {
-  display: flex;
-  flex-flow: row wrap;
-  padding: 10px;
-  justify-content: space-around; }
-  .flexSobreYo p {
-    padding: 1px;
-    text-align: justify; }
+.main-sobremi {
+  margin-bottom: 30px; }
 
-.grillita {
-  display: grid;
-  grid-template-areas: "inicio inicio inicio inicio" "titulo titulo titulo titulo" " info info foto foto" "info info forma forma" "fin fin fin fin";
-  grid-template-rows: auto;
-  grid-column-gap: 10px;
-  grid-row-gap: 20px;
-  text-align: center; }
+.holaHola {
+  display: flex; }
 
-header {
-  grid-area: inicio; }
+.holaTexto {
+  width: 50%;
+  margin: 10px;
+  line-height: 3.3rem;
+  text-align: justify; }
 
-main {
-  grid-area: titulo;
-  padding: 20px; }
-
-div.flexSobreyo {
-  grid-area: info;
-  padding-left: 20px;
-  padding-right: 20px;
+.textoDos p {
+  padding: 15px;
+  margin-bottom: 15px;
   text-align: justify;
-  line-height: 50px; }
+  line-height: 2.5rem; }
 
-div#foto {
-  grid-area: foto; }
-
-aside {
-  grid-area: aside; }
-
-section div.border {
-  grid-area: formas;
-  border: dotted 1px wheat;
-  padding: 10px; }
-  section div.border h3 {
-    font-size: 150%; }
-  section div.border li {
+.ideaNueva {
+  padding: 10px;
+  margin: 20px;
+  text-align: center; }
+  .ideaNueva li {
     list-style: none;
-    line-height: 40px; }
-
-div footer {
-  grid-area: fin; }
+    line-height: 2.5rem; }
 
 /*Estilos nutricion*/
 #alturaNutri {
@@ -374,40 +350,44 @@ footer {
 /*MediaQueries*/
 /*Smartphone*/
 @media (max-width: 480px) {
-  /*Menu*/ }
-
-/*Nutricion*/
-#alturaNutri {
-  height: 100%; }
-
-body {
-  height: 3000px; }
-
-.grillaDoble {
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: space-evenly;
-  padding-bottom: 20px; }
-  .grillaDoble p {
-    width: 50vh;
-    text-align: justify;
-    font-size: 20px;
-    line-height: 200%; }
-
-iframe {
-  width: 350px; }
-
-.holaQueTal img {
-  width: 300px;
-  margin: 2px;
-  padding: 2px; }
-
-.dudasNuevas {
-  padding: 5px;
-  margin: 5px; }
-
-footer {
-  height: 100%; }
+  /*Menu*/
+  /*Nutricion*/
+  #alturaNutri {
+    height: 100%; }
+  body {
+    height: 1500px; }
+  .grillaDoble {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    padding-bottom: 20px; }
+    .grillaDoble p {
+      width: 50vh;
+      text-align: justify;
+      font-size: 20px;
+      line-height: 200%; }
+  iframe {
+    width: 350px; }
+  .holaQueTal img {
+    width: 300px;
+    margin: 2px;
+    padding: 2px; }
+  .dudasNuevas {
+    padding: 5px;
+    margin: 5px; }
+  footer {
+    height: 100%; }
+  /*Turnos*/
+  input[type="reset"] {
+    width: 20vh; }
+  /*Contactos*/
+  .gridContacto {
+    display: flex;
+    flex-direction: column; }
+    .gridContacto p {
+      padding-bottom: 15px; }
+  #footer-mobile {
+    height: 100vh; } }
 
 /*Tablet*/
 @media (min-width: 600px) {
