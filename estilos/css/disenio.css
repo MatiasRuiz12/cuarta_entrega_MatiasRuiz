@@ -49,6 +49,9 @@ h3 {
   font-weight: bold; }
 
 /*Estilos para index*/
+.mobileAltura {
+  height: 150vh; }
+
 .headerInicio {
   background-color: lightblue;
   display: flex;
@@ -337,7 +340,6 @@ footer {
     width: 40%; }
   footer div p {
     color: white;
-    transition: width 2s;
     font-size: 20px; }
     footer div p:hover {
       color: black;
@@ -352,12 +354,17 @@ footer {
 /*Smartphone*/
 @media (max-width: 480px) {
   /*Menu*/
+  .mobileAltura {
+    height: 2600px; }
   .flexMenu {
     flex-direction: column; }
   .flexSecciones {
     flex-direction: column; }
+    .flexSecciones div {
+      width: 50vh;
+      margin-left: 20px; }
     .flexSecciones img {
-      width: 100%; }
+      width: 60%; }
     .flexSecciones p {
       font-size: 16px;
       text-align: center; }
@@ -366,6 +373,8 @@ footer {
     flex-direction: column; }
     .flexIntroduccion p {
       text-align: center; }
+  #alturaFooter {
+    height: 30%; }
   /*SobreMi*/
   .holaHola {
     flex-direction: column; }
@@ -374,7 +383,7 @@ footer {
       width: 80%;
       padding-left: 20px; }
   #alturaJusta {
-    height: 3000px; }
+    height: 500vh; }
   /*Nutricion*/
   #alturaNutri {
     height: 100%; }
@@ -410,8 +419,15 @@ footer {
     flex-direction: column; }
     .gridContacto p {
       padding-bottom: 15px; }
+  /*Footer*/
   #footer-mobile {
-    height: 100vh; } }
+    height: 100vh; }
+  footer div p {
+    transition: none; }
+    footer div p:hover {
+      color: black;
+      background-color: white;
+      width: 65%; } }
 
 /*Tablet*/
 @media (min-width: 600px) {

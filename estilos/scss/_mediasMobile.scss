@@ -3,13 +3,20 @@
 /*Smartphone*/
 @media (max-width: 480px) {
   /*Menu*/
+  .mobileAltura {
+    height: 2600px;
+  }
   .flexMenu {
     flex-direction: column;
   }
   .flexSecciones {
     flex-direction: column;
+    div {
+      width: 50vh;
+      margin-left: 20px;
+    }
     img {
-      width: 100%;
+      width: 60%;
     }
     p {
       font-size: 16px;
@@ -23,6 +30,9 @@
       text-align: center;
     }
   }
+  #alturaFooter {
+    height: 30%;
+  }
   /*SobreMi*/
   .holaHola {
     flex-direction: column;
@@ -33,7 +43,7 @@
     }
   }
   #alturaJusta {
-    height: 3000px;
+    height: 500vh;
   }
   /*Nutricion*/
   #alturaNutri {
@@ -84,7 +94,18 @@
       padding-bottom: 15px;
     }
   }
+  /*Footer*/
   #footer-mobile {
     height: 100vh;
+  }
+  footer {
+    div p {
+      transition: none;
+      &:hover {
+        color: black;
+        background-color: white;
+        width: 65%;
+      }
+    }
   }
 }
