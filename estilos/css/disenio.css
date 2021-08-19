@@ -431,5 +431,24 @@ footer {
 
 /*Tablet*/
 @media (min-width: 600px) {
-  body {
-    background-color: pink; } }
+  /*Menu*/
+  .mobileAltura {
+    height: 2000px; }
+  .flexMenu {
+    flex-flow: row; }
+  .flexSecciones {
+    flex-flow: row wrap; }
+    .flexSecciones div {
+      width: 50vh;
+      margin-left: 20px;
+      justify-content: center;
+      align-items: center; }
+    .flexSecciones img {
+      width: 60%; }
+    .flexSecciones p {
+      font-size: 20px; }
+  .flexIntroduccion {
+    display: flex;
+    flex-direction: column; }
+    .flexIntroduccion p {
+      text-align: center; } }
