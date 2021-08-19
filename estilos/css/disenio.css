@@ -427,9 +427,7 @@ footer {
   form {
     text-align: center; }
   .comentarios {
-    text-align: center; }
-    .comentarios textarea {
-      margin-left: 100px; }
+    margin-left: 65px; }
   input[type="reset"] {
     width: 20vh; }
   /*Contactos*/
