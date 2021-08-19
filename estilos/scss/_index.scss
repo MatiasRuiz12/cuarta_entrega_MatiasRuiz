@@ -1,8 +1,6 @@
 /*Estilos para index*/
 
-.mobileAltura {
-  height: 150vh;
-}
+
 .headerInicio {
   background-color: lightblue;
   display: flex;
@@ -73,9 +71,17 @@
   padding: 5px;
   margin-top: 40px;
   margin-bottom: 60px;
+  align-items: center;
+  img{
+    padding: 15px;
+    margin: 15px;
+  }
 }
 #textoCorto {
+  text-align: justify;
   font-size: 150%;
   padding: 10px;
   margin: 10px;
+  width: 50%;
+  line-height: 40px;
 }
