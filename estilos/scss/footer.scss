@@ -11,11 +11,15 @@ footer {
   div p {
     color: white;
     font-size: 20px;
-    &:hover {
-      color: black;
-      background-color: white;
-      width: 30%;
-      text-align: center;
+    
+    }
+    a{
+      color: white;
+      &:hover {
+        color: black;
+        background-color: white;
+        width: 30%;
+        text-align: center;
     }
   }
 }
