@@ -100,6 +100,8 @@ h3 {
     font-size: 40px;
     border: double 1px white;
     width: 60vh; }
+    .flexSecciones div img {
+      width: 50%; }
 
 .flexIntroduccion {
   display: grid;
@@ -118,7 +120,7 @@ h3 {
   font-size: 150%;
   padding: 10px;
   margin: 10px;
-  width: 50%;
+  width: 70%;
   line-height: 40px; }
 
 /*Estilos sobreMi*/
@@ -468,7 +470,7 @@ footer {
     justify-content: space-between; }
     .flexMenu li {
       width: auto;
-      font-size: 130%; }
+      font-size: 110%; }
   .flexSecciones {
     flex-flow: row wrap; }
     .flexSecciones div {
