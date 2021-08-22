@@ -373,7 +373,8 @@ footer {
       margin-right: 2px;
       padding-right: 2px; }
     .flexSecciones img {
-      width: 60%; }
+      width: 60%;
+      padding-top: 7px; }
     .flexSecciones p {
       font-size: 16px;
       text-align: center; }
@@ -397,6 +398,11 @@ footer {
       text-align: center;
       width: 80%;
       padding-left: 20px; }
+  .licFoto {
+    align-items: center; }
+    .licFoto img {
+      width: 80%;
+      margin-left: 30px; }
   #alturaJusta {
     height: 3200px; }
   /*Nutricion*/
@@ -451,3 +457,65 @@ footer {
       color: black;
       background-color: white;
       width: 65%; } }
+
+/*Tablets*/
+@media (min-width: 768px) and (max-width: 1024px) {
+  /*Menu*/
+  .mobileAltura {
+    height: auto; }
+  .flexMenu {
+    flex-flow: row;
+    justify-content: space-between; }
+    .flexMenu li {
+      width: auto;
+      font-size: 130%; }
+  .flexSecciones {
+    flex-flow: row wrap; }
+    .flexSecciones div {
+      width: 50vh;
+      margin-left: 20px;
+      margin-top: 15px;
+      justify-content: center;
+      align-items: center; }
+    .flexSecciones img {
+      width: 60%;
+      padding-top: 5px; }
+    .flexSecciones p {
+      font-size: 120%; }
+  .flexIntroduccion {
+    display: flex;
+    flex-direction: column; }
+    .flexIntroduccion #textoCorto {
+      text-align: justify;
+      width: 70%;
+      line-height: 70px; }
+  #alturaFooter {
+    height: 20%; }
+  /*SobreMi*/
+  #alturaJusta {
+    height: auto; }
+  .holaHola {
+    flex-flow: column; }
+    .holaHola img {
+      width: 70%;
+      margin-left: 70px; }
+  .holaTexto {
+    font-size: 130%;
+    text-align: center;
+    width: 90%;
+    margin-left: 20px; }
+  .textoDos {
+    font-size: 130%; }
+  .ideaNueva {
+    font-size: 140%; }
+    .ideaNueva li {
+      line-height: 4rem; }
+  /*Nutricion*/
+  #alturaNutri {
+    height: 2700px; }
+  .grillaDoble {
+    display: flex;
+    flex-flow: column; }
+    .grillaDoble p {
+      line-height: 4rem;
+      margin-bottom: 15px; } }
